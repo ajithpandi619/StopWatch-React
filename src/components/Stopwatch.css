@@ -1,0 +1,67 @@
+body {
+  background: #ff5252;
+}
+
+.container {
+  background-color: #fff;
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+.timer-display {
+  position: relative;
+  width: 92%;
+  background: #fff;
+  left: 4%;
+  font-family: "Roboto mono", monospace;
+  color: #ff5252;
+  font-size: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn1 {
+  background-color: rgb(97, 200, 97);
+  color: white;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+.btn2 {
+  background-color: rgb(255, 221, 0);
+  color: white;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+.btn3 {
+  background-color: red;
+  color: white;
+  width: 100px;
+  padding: 5px;
+  border: none;
+  font-weight: 500;
+}
